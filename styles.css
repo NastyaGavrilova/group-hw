@@ -1,6 +1,10 @@
-/* Header block */
-.c-sem-header__wrapper {
+Header block .c-sem-header__wrapper {
   padding-top: 32px;
+}
+
+
+.c-sem-header__wrapper {
+  width: 940px;
 }
 
 .block-size {
@@ -131,4 +135,75 @@
   .sem-header__underline {
     display: none;
   }
+}
+
+.pozh-c-content {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.pozh-c-skills__section {
+  text-align: center;
+}
+
+.pozh-e-title {
+  font-family: "Khula", sans-serif;
+  padding: 90px 0 0 0;
+  line-height: 42px;
+  color: #070707;
+  font-size: 35px;
+  margin: 0;
+}
+
+.pozh-e-text {
+  font-family: "Khula", sans-serif;
+  margin: 70px 0 0 0;
+  line-height: 22px;
+  color: #070707;
+  font-size: 18px;
+  padding: 0;
+}
+
+.pozh-e-programs__wrapper {
+  justify-content: space-around;
+  margin: 0 100px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.pozh-e-programs__wrapper {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.pozh-e-programs__item {
+  margin: 85px 0 110px 0;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.pozh-e-programs__sub-title {
+  font-family: "Khula", sans-serif;
+  line-height: 17px;
+  color: #070707;
+  font-size: 14px;
+}
+
+.pozh-e-programs__title {
+  font-family: "Khula", sans-serif;
+  line-height: 17px;
+  color: #070707;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.pozh-e-star__wrapper {
+  padding-top: 20px;
+}
+
+.pozh-e-star__wrapper--last {
+  padding-top: 40px;
 }
