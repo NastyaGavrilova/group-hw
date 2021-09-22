@@ -1,6 +1,5 @@
 # group-hw
 
-
 # sem- is my personal prefix for classname semibratov1494@gmail.com
 
 # block-size - it is class for max-width by content in all sections in the container
@@ -13,3 +12,6 @@
 
 # pozh - personal prefix for Pozharytskiy Oleh @mail pozhar.oleh25@gmail.com
 
+# ngvr- it's my peronal predix for class name gavrilovan61@gmail.com
+
+# info-postion - its class for manage items in "ngvr-c-contacts\_\_info" class

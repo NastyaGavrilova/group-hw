@@ -18,7 +18,16 @@
     url("Gilroy-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
+}
+
+@font-face {
   font-family: "Gilroy-Bold";
   src: url(./fonts/Gilroy/Gilroy-Bold.ttf) format("truetype");
   font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("./fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
 }
