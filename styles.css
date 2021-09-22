@@ -3,6 +3,11 @@
   padding-top: 32px;
 }
 
+.block-size {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
 /* header navigation block */
 .c-sem-navigation {
   padding: 0 5px;
