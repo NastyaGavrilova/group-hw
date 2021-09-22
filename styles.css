@@ -1,0 +1,134 @@
+/* Header block */
+.c-sem-header__wrapper {
+  padding-top: 32px;
+}
+
+.block-size {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* header navigation block */
+.c-sem-navigation {
+  padding: 0 5px;
+}
+
+.c-sem-navigation__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.e-sem-link {
+  text-decoration: none;
+  color: #828282;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sem-header__underline {
+  border: none;
+  height: 2px;
+  background-color: #828282;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+.e-sem-link:focus {
+  color: black;
+}
+
+/* Create lines in burger */
+.c-sem-burger__button > span,
+.c-sem-burger__button > span::before,
+.c-sem-burger__button > span::after {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+/* lines position  */
+.c-sem-burger__button > span::before {
+  content: " ";
+  top: -8px;
+}
+
+.c-sem-burger__button > span::after {
+  content: " ";
+  top: 8px;
+}
+
+/* Burger */
+#burger-menu {
+  opacity: 0;
+}
+
+#burger-menu:checked ~ .c-sem-burger__button > span {
+  transform: rotate(45deg);
+}
+
+#burger-menu:checked ~ .c-sem-burger__button > span::before {
+  display: none;
+}
+
+#burger-menu:checked ~ .c-sem-burger__button > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.c-sem-burger__button {
+  display: none;
+  align-items: center;
+  position: fixed;
+  top: 70px;
+  right: 30px;
+  width: 30px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Media for header */
+@media (max-width: 375px) {
+  .c-sem-burger__button {
+    display: flex;
+    z-index: 500;
+  }
+  .c-sem-navigation {
+    display: none;
+  }
+
+  .c-sem-navigation__list {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 100;
+    top: 65px;
+    right: 0px;
+    left: 0px;
+    padding: 0 30px;
+    background-color: white;
+  }
+
+  .c-sem-navigation__list__item {
+    display: inline;
+    width: fit-content;
+    margin-bottom: 70px;
+    width: 100%;
+  }
+  /* Links is block */
+  .c-sem-navigation__list__item a {
+    display: block;
+  }
+
+  /* Open navigation block in burger */
+  #burger-menu:checked ~ .c-navigation {
+    display: block;
+    z-index: 100;
+  }
+  .sem-header__underline {
+    display: none;
+  }
+}
