@@ -1,6 +1,10 @@
-/* Header block */
-.c-sem-header__wrapper {
+Header block .c-sem-header__wrapper {
   padding-top: 32px;
+}
+
+.c-sem-header__wrapper {
+  width: 940px;
+  margin: 0 auto;
 }
 
 /* header navigation block */
